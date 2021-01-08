@@ -1,0 +1,6 @@
+OpenOPC-Python3x
+pypiwin32
+clickhouse_driver
+requests
+pandas
+matplotlib

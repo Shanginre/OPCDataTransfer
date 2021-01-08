@@ -1,0 +1,62 @@
+2020-11-06 13:15:00,954 OPCServerFunctions INFO:connected to OPC server Matrikon.OPC.Simulation.1
+2020-11-06 13:15:01,005 OPCServerFunctions INFO:data refresh rate is set by default 5
+2020-11-06 13:15:01,005 SenderFunctions INFO:ClickHouse client session created
+2020-11-06 13:15:01,005 clickhouse_driver.connection DEBUG:Connecting. Database: default. User: default
+2020-11-06 13:15:01,005 clickhouse_driver.connection DEBUG:Connecting to 192.168.56.5:9000
+2020-11-06 13:15:01,010 clickhouse_driver.connection DEBUG:Connected to ClickHouse server version 20.3.4, revision: 54433
+2020-11-06 13:15:01,122 clickhouse_driver.connection DEBUG:Query: CREATE DATABASE IF NOT EXISTS default
+2020-11-06 13:15:01,123 clickhouse_driver.connection DEBUG:Block send time: 0.000000
+2020-11-06 13:15:01,124 clickhouse_driver.connection DEBUG:Query: 
+        CREATE TABLE IF NOT EXISTS default.facility_sensor_logs( 
+        department UInt64,
+        area UInt64,
+        facility UInt64,  
+        component UInt64,
+        parameter UInt64,
+        value Float32,
+        time DateTime('Asia/Yekaterinburg'))
+        ENGINE = MergeTree()
+        PARTITION BY toYYYYMM(time)
+        ORDER BY (facility, parameter, time)
+2020-11-06 13:15:01,124 clickhouse_driver.connection DEBUG:Block send time: 0.000000
+2020-11-06 13:15:01,162 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10012, 'parameter': 1, 'value': 0.2088187298227948, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,162 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10012, 'parameter': 2, 'value': 73.89348954876532, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,162 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10012, 'parameter': 3, 'value': 362.40918765580517, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,162 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10013, 'parameter': 1, 'value': 0.24808004952801627, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,162 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10013, 'parameter': 2, 'value': 72.18724420228541, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,162 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10013, 'parameter': 3, 'value': 384.19734844937324, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,162 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10011, 'parameter': 1, 'value': 7.21699391930575, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,163 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10011, 'parameter': 2, 'value': 69.2274749634637, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,163 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10011, 'parameter': 3, 'value': 411.24410905562684, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,163 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10014, 'parameter': 1, 'value': 0.017571457831015363, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,163 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10014, 'parameter': 2, 'value': 60.806992699836584, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,163 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10014, 'parameter': 3, 'value': 302.41480139673627, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,163 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10015, 'parameter': 2, 'value': 70.31948562099186, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,163 OPCServerFunctions INFO:{'department': 1, 'area': 1, 'facility': 1001, 'component': 10015, 'parameter': 3, 'value': 380.8773584846722, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,164 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10021, 'parameter': 1, 'value': 19.743239491205653, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,164 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10021, 'parameter': 2, 'value': 61.98593050219041, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,164 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10021, 'parameter': 3, 'value': 364.46951984897163, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,164 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10022, 'parameter': 1, 'value': 1.9699878735149126, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,164 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10022, 'parameter': 2, 'value': 81.6420452006503, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,164 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10022, 'parameter': 3, 'value': 466.7352713146885, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,164 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10024, 'parameter': 2, 'value': 75.14898088127559, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,165 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10024, 'parameter': 3, 'value': 445.7796945066737, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,165 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10023, 'parameter': 1, 'value': 0.17855128757023717, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,165 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10023, 'parameter': 2, 'value': 79.01725972514625, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,165 OPCServerFunctions INFO:{'department': 1, 'area': 2, 'facility': 1002, 'component': 10023, 'parameter': 3, 'value': 456.41393473645877, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,165 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10031, 'parameter': 1, 'value': 3.7656890264755956, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,165 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10031, 'parameter': 2, 'value': 66.87162685409282, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,165 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10031, 'parameter': 3, 'value': 404.21780205563425, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,165 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10032, 'parameter': 1, 'value': 5.606553401825971, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,166 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10032, 'parameter': 2, 'value': 59.18304950982956, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,166 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10032, 'parameter': 3, 'value': 403.0624807415115, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,166 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10034, 'parameter': 2, 'value': 70.35334647720589, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,166 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10034, 'parameter': 3, 'value': 396.52909805926396, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,166 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10033, 'parameter': 1, 'value': 0.07408201906513642, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,166 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10033, 'parameter': 2, 'value': 59.516641788519294, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,166 OPCServerFunctions INFO:{'department': 2, 'area': 3, 'facility': 1003, 'component': 10033, 'parameter': 3, 'value': 320.0287325386873, 'time': datetime.datetime(2020, 11, 6, 13, 15, 1, 125970)}
+2020-11-06 13:15:01,167 clickhouse_driver.connection DEBUG:Query: INSERT INTO default.facility_sensor_logs (department, area, facility, component, parameter, value, time) VALUES
+2020-11-06 13:15:01,167 clickhouse_driver.connection DEBUG:Block send time: 0.000000
+2020-11-06 13:15:01,383 clickhouse_driver.connection DEBUG:Block send time: 0.215281
+2020-11-06 13:15:01,383 clickhouse_driver.connection DEBUG:Block send time: 0.000000
+2020-11-06 13:15:01,387 SenderFunctions INFO:insert 36 values into ClickHouse table2021-01-07 07:01:16,384 OPCDataTransfer.OPC.OPC INFO:connected to OPC server Matrikon.OPC.Simulation.1

@@ -1,0 +1,6 @@
+# general things to ignore
+.idea/
+__pycache__/
+venv/
+dist/
+OPCDataTransfer.egg-info/

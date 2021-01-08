@@ -1,0 +1,269 @@
+{
+  "opc_names_and_codes": {
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Dvigatel_Peremeshcheniy.POWER": {
+      "facility": 1001,
+      "component": 10012,
+      "parameter": 1
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Dvigatel_Peremeshcheniy.TEMPERATURE": {
+      "facility": 1001,
+      "component": 10012,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Dvigatel_Peremeshcheniy.VIBRATION": {
+      "facility": 1001,
+      "component": 10012,
+      "parameter": 3
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Dvigatel_bystrogo_hoda.POWER": {
+      "facility": 1001,
+      "component": 10013,
+      "parameter": 1
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Dvigatel_bystrogo_hoda.TEMPERATURE": {
+      "facility": 1001,
+      "component": 10013,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Dvigatel_bystrogo_hoda.VIBRATION": {
+      "facility": 1001,
+      "component": 10013,
+      "parameter": 3
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Glavnyy_Dvigatel.POWER": {
+      "facility": 1001,
+      "component": 10011,
+      "parameter": 1
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Glavnyy_Dvigatel.TEMPERATURE": {
+      "facility": 1001,
+      "component": 10011,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Glavnyy_Dvigatel.VIBRATION": {
+      "facility": 1001,
+      "component": 10011,
+      "parameter": 3
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Nasos_ohlazhdeniya.POWER": {
+      "facility": 1001,
+      "component": 10014,
+      "parameter": 1
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Nasos_ohlazhdeniya.TEMPERATURE": {
+      "facility": 1001,
+      "component": 10014,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Nasos_ohlazhdeniya.VIBRATION": {
+      "facility": 1001,
+      "component": 10014,
+      "parameter": 3
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Podshipnik_shpindel.TEMPERATURE": {
+      "facility": 1001,
+      "component": 10015,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_1.Tokarnyy_stanok_CS6150.Podshipnik_shpindel.VIBRATION": {
+      "facility": 1001,
+      "component": 10015,
+      "parameter": 3
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.Dvigatel_shpindelya.POWER": {
+      "facility": 1002,
+      "component": 10021,
+      "parameter": 1
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.Dvigatel_shpindelya.TEMPERATURE": {
+      "facility": 1002,
+      "component": 10021,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.Dvigatel_shpindelya.VIBRATION": {
+      "facility": 1002,
+      "component": 10021,
+      "parameter": 3
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.dvigatel_peremeshcheniy_po_osyam.POWER": {
+      "facility": 1002,
+      "component": 10022,
+      "parameter": 1
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.dvigatel_peremeshcheniy_po_osyam.TEMPERATURE": {
+      "facility": 1002,
+      "component": 10022,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.dvigatel_peremeshcheniy_po_osyam.VIBRATION": {
+      "facility": 1002,
+      "component": 10022,
+      "parameter": 3
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.podshipnik_shpindel_stanok_C61100.TEMPERATURE": {
+      "facility": 1002,
+      "component": 10024,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.podshipnik_shpindel_stanok_C61100.VIBRATION": {
+      "facility": 1002,
+      "component": 10024,
+      "parameter": 3
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.pompa_okhlazhdeniya_stanok_C61100.POWER": {
+      "facility": 1002,
+      "component": 10023,
+      "parameter": 1
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.pompa_okhlazhdeniya_stanok_C61100.TEMPERATURE": {
+      "facility": 1002,
+      "component": 10023,
+      "parameter": 2
+    },
+    "Podrazdelenie_1.Uchastok_2.Tokarnyy_stanok_C61100.pompa_okhlazhdeniya_stanok_C61100.VIBRATION": {
+      "facility": 1002,
+      "component": 10023,
+      "parameter": 3
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.dvigatel_vertikalnogo_shpindelya.POWER": {
+      "facility": 1003,
+      "component": 10031,
+      "parameter": 1
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.dvigatel_vertikalnogo_shpindelya.TEMPERATURE": {
+      "facility": 1003,
+      "component": 10031,
+      "parameter": 2
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.dvigatel_vertikalnogo_shpindelya.VIBRATION": {
+      "facility": 1003,
+      "component": 10031,
+      "parameter": 3
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.dvigatelya_gorizontalnogo_shpindelya.POWER": {
+      "facility": 1003,
+      "component": 10032,
+      "parameter": 1
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.dvigatelya_gorizontalnogo_shpindelya.TEMPERATURE": {
+      "facility": 1003,
+      "component": 10032,
+      "parameter": 2
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.dvigatelya_gorizontalnogo_shpindelya.VIBRATION": {
+      "facility": 1003,
+      "component": 10032,
+      "parameter": 3
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.podshipnik_shpindel_stanok_X6232Cx16.TEMPERATURE": {
+      "facility": 1003,
+      "component": 10034,
+      "parameter": 2
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.podshipnik_shpindel_stanok_X6232Cx16.VIBRATION": {
+      "facility": 1003,
+      "component": 10034,
+      "parameter": 3
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.pompa_okhlazhdeniya_stanok_X6232Cx16.POWER": {
+      "facility": 1003,
+      "component": 10033,
+      "parameter": 1
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.pompa_okhlazhdeniya_stanok_X6232Cx16.TEMPERATURE": {
+      "facility": 1003,
+      "component": 10033,
+      "parameter": 2
+    },
+    "Podrazdelenie_2.Uchastok_3.Frezernyy_stanok_X6232Cx16.pompa_okhlazhdeniya_stanok_X6232Cx16.VIBRATION": {
+      "facility": 1003,
+      "component": 10033,
+      "parameter": 3
+    }
+  },
+
+  "codes_and_plotting_names": {
+    "facility": [
+      {
+        "key": 1001,
+        "value": "Tokarnyy stanok CS6150"
+      },
+      {
+        "key": 1002,
+        "value": "Tokarnyy stanok C61100"
+      },
+      {
+        "key": 1003,
+        "value": "Frezernyy stanok X6232Cx16"
+      }
+    ],
+    "component": [
+      {
+        "key": 10011,
+        "value": "Glavnyy Dvigatel"
+      },
+      {
+        "key": 10012,
+        "value": "Dvigatel Peremeshcheniy"
+      },
+      {
+        "key": 10013,
+        "value": "Dvigatel bystrogo hoda"
+      },
+      {
+        "key": 10014,
+        "value": "Nasos ohlazhdeniya"
+      },
+      {
+        "key": 10015,
+        "value": "Podshipnik shpindel"
+      },
+      {
+        "key": 10021,
+        "value": "Dvigatel shpindelya"
+      },
+      {
+        "key": 10022,
+        "value": "dvigatel peremeshcheniy po osyam"
+      },
+      {
+        "key": 10023,
+        "value": "pompa okhlazhdeniya stanok C61100"
+      },
+      {
+        "key": 10024,
+        "value": "podshipnik shpindel stanok C61100"
+      },
+      {
+        "key": 10031,
+        "value": "dvigatel vertikalnogo shpindelya"
+      },
+      {
+        "key": 10032,
+        "value": "dvigatelya gorizontalnogo shpindelya"
+      },
+      {
+        "key": 10033,
+        "value": "pompa okhlazhdeniya stanok X6232Cx16"
+      },
+      {
+        "key": 10034,
+        "value": "podshipnik shpindel stanok_X6232Cx16"
+      }
+    ],
+    "parameter": [
+      {
+        "key": 1,
+        "value": "POWER"
+      },
+      {
+        "key": 2,
+        "value": "TEMPERATURE"
+      },
+      {
+        "key": 3,
+        "value": "VIBRATION"
+      }
+    ]
+  }
+  }
